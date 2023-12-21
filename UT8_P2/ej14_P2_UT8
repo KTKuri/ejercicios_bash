@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Copia este directorio: /media/alu10513628/Crucial X6/ASO"
+
+read -p "Introduce la ruta absoluta del directorio: " ruta
+
+if [[ -d $ruta ]]
+then
+	ll $ruta
+elif [[ 
+	 "La ruta no corresponde a ningun directorio"
+fi
